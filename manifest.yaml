@@ -1,4 +1,4 @@
-id: cicd-connector-v2
+id: cicd-connector-af
 name: cicd-connector-v2
 description: CI/CD revamped
 self: https://github.com/leanix/cicd-connector-v2/blob/main/lx-manifest.yml
