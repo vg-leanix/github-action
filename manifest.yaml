@@ -6,7 +6,7 @@ owner: my.owner@leanix.net
 teams:
   - cider
 products:
-  - leanix-vsm
+  - leanix-abc
 links:
   - name: vcs
     url: https://github.com/leanix/cicd-connector-v2
