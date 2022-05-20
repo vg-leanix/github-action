@@ -4,10 +4,10 @@ on:
   push:
 
 env:
-  HOST: app.leanix.net
-  LEANIX_MANIFEST_PATH: /lx-manifest.yml
+  HOST: eu-4.leanix.net
+  LEANIX_MANIFEST_PATH: /manifest.yaml
   DEPENDENCY_MANAGER: NPM
-  STAGE: test
+  STAGE: production
   VERSION: 2.2.0
   ALLOW_FAILURE: true
 
@@ -23,7 +23,7 @@ jobs:
         id: LIXMI
         with:
           host: ${{ env.HOST }}
-          api-token: ${{ secrets.LEANIX_API_TOKEN }}
+          api-token: ${{ secrets.APITOKEN }}
           manifest-path: ${{ env.LEANIX_MANIFEST_PATH }}
           dependency-manager: ${{ env.DEPENDENCY_MANAGER }}
           stage: ${{ env.STAGE }}
