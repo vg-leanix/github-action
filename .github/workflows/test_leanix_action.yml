@@ -2,6 +2,8 @@ name: leanix-action-test
 
 on:
   push:
+    branches:
+      - master
 
 env:
   HOST: eu-4.leanix.net
