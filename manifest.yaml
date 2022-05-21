@@ -1,6 +1,6 @@
 id: cicd-connector-af
 name: cicd-connector-v2
-description: CI/CD revamped
+description: CI/CD revamped v2
 self: https://github.com/leanix/cicd-connector-v2/blob/main/lx-manifest.yml
 owner: my.owner@leanix.net
 teams:
