@@ -2,13 +2,12 @@ name: leanix-action-test
 
 on:
   push:
-    branches:
-      - master
+    
 
 env:
   HOST: eu-4.leanix.net
   LEANIX_MANIFEST_PATH: /manifest.yaml
-  DEPENDENCY_MANAGER: NPM
+  DEPENDENCY_MANAGER: MAVEN
   STAGE: production
   VERSION: 2.2.0
   ALLOW_FAILURE: true
