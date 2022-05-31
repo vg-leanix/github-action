@@ -7,7 +7,7 @@ on:
 env:
   HOST: eu-4.leanix.net
   LEANIX_MANIFEST_PATH: /manifest.yaml
-  DEPENDENCY_MANAGER: MAVEN
+  DEPENDENCY_MANAGER: GRADLE
   STAGE: production
   VERSION: 2.2.0
   ALLOW_FAILURE: true

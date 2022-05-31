@@ -1,8 +1,8 @@
-id: vg-pom
-name: vg-pom
-description: vg-pom
+id: vg-gradle
+name: vg-gradle
+description: vg-gradle
 self: https://github.com/leanix/cicd-connector-v2/blob/main/lx-manifest.yml
-owner: my.owner@leanix.net
+owner: vincent.groves@leanix.net
 teams:
   - cider
 products:
